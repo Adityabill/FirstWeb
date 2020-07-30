@@ -1,0 +1,281 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ++++++Grid++++++*/
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+/*++++++Clear-fix++++++*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+
+.container{
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+	
+}
+
+/* ++++++Typography++++++*/
+h1, h2, h3, h4, h5, h6, p{
+	margin-bottom: 10px;
+}
+
+/* ++++++Typography++++++*/
+.btn{
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+}
+
+.btn-alt{
+	border: 10px solid #dfe2e5;
+	padding: 10px 30px;
+}
+
+/* ++++++Intro++++++*/
+.intro-header{
+	padding: 10px;
+}
+
+.intro-para{
+	padding: 60px;
+}
+
+
+/*++++++Spacing For Footer++++++*/
+.space{
+	padding: 100px;
+}
+
+/*++++++Spacing for Transportation Section++++++*/
+.spacetrans{
+	
+	padding-bottom: 60px;
+}
+
+/*++++++Spacing for Things to see++++++*/
+.space-things{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+
+/* ++++++ Nav Bar ++++++*/
+.navbtn{
+    border-radius: 2px;
+	display: inline-block;
+	margin: 0
+}
+
+.navbtn-alt{
+	background-color: #01BF3F;
+}
+
+.navbox{
+	border-radius: 5px;
+    display: inline-block ;
+	margin:1px;
+	padding: 8px;
+	text-align: center;
+	
+}
+
+.navbox-size{
+	width: 1000px;
+}
+ .nav-background-color{
+	 background-color: yellow;
+ }
+
+ .nav-btn-text{
+    font: 1.5em monospace;
+	color: #ffffff;
+ }
+
+
+/*++++++Font Size ++++++*/
+.h1{font-size: 60px;}
+.h2{font-size: 30px;
+    font: 2em sans-serif;}
+
+/*++++++Font Style++++++*/
+.h1-style{
+	font-style: italic;
+	color:#2580f8 ;
+}
+
+/*++++++Heading Highlight++++++*/
+.h1-highlight{
+	background-color:  #ffc300;
+	text-align: center;
+}
+
+.logo-float{
+	float: right;
+}
+
+/*++++++footer++++++*/
+.footer-box{
+
+	padding-top: 100px;
+	background-color: #195a67;
+
+}
+
+.footer-color{
+    font-style: italic;
+	color: #ffffff
+}
+
+/*++++++Heading Flooting++++++*/
+.head-flooter{
+	float: left;
+}
+
+/*++++++Picture Floating to left++++++*/
+.pics-floater{
+	float: right;
+}
+.pics-desc-floater{
+	float: 70% right;
+}
+ 
+.space-list-head{
+	padding-bottom: 100px;
+}
+
+.list-head-bolding{
+	font-weight: bolder;
+}
+
+a{
+	color:  #0abd37;
+	text-decoration: none;
+}
+a:hover{
+	color: #1eddeb;                  
+}
+
+/*++++++Text-Font++++++*/
+.fontstyle{
+	font: 1em sans-serif;
+}
+
+.fontstyle2{
+	font-style: italic;
+	font-weight: bolder;
+}
+
+/*++++++Background++++++*/
+.background-color{
+	background-size: 100%;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	}
+
+.background-color-content{
+	background-color: #ffffff;
+	opacity: 85%;
+}
+
+
+
+/*-----------------------------------Best Restaurant Webpage------------------------*/
+.link-style{
+	font-weight: 900;
+	font-style: italic;
+	color: #2580f8;
+}
+
+.background-img-restaurant{
+	background-size: 100%;
+}
+
+.background-rest-color{
+	background-color: #ffffff;
+	opacity: 80%;
+}
+
+/*-----------------------------------Hotels Webpage---------------------------------*/
+.List-Head-Spacing{
+padding-top: 30px;
+}
+
+.h1-2-style{
+	font-style: italic;
+	color: #0146A6 ;
+}
+
+.h1-2-highlight{
+	padding: 30px;
+	background-color:  #01BF3F;
+}
+
+.background-image-htl{
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+
